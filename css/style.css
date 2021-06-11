@@ -1,0 +1,617 @@
+/* index.css */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.textprimary {
+  color: #1e3e59;
+}
+.textsecondary {
+  color: #f2e0bd;
+}
+.bgsecondary {
+  background-color: #f2e0bd;
+}
+.bgprimary {
+  background-color: #1e3e59;
+  color: #f2e0bd;
+}
+
+.dropdown-menu a:hover {
+  background-color: white;
+}
+.subheader {
+  background-color: #f2e0bd;
+  /* color: #000; */
+}
+
+.mainheader {
+  background-color: #1e3e59;
+  color: white;
+}
+.mainheader a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+#section-a i {
+  color: white;
+  background-color: #1e3e59;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 13px 8px 15px 8px;
+}
+#section-a {
+  background-color: #f2e0bd;
+}
+#section-b {
+  background-color: #33475c;
+  color: #fff;
+}
+#projects {
+  background-color: #f2e0bd;
+}
+
+#section-c {
+  background-color: #f2e0bd;
+  color: #1e3e59;
+}
+#section-c a {
+  color: #1e3e59;
+}
+#section-c li {
+  list-style: none;
+}
+.projecttext {
+  color: #1e3e59;
+}
+#copyright {
+  background-color: #1e3e59;
+  color: white;
+  font-size: 13px;
+}
+
+.image2 {
+  height: 330px;
+  width: 90%;
+  border-radius: 7%;
+  /* box-shadow: 23px 23px 43px -16px rgba(0, 0, 0, 0.5); */
+}
+.line {
+  border: 0.1rem solid #1e3e59;
+  width: 5rem;
+}
+.line1 {
+  border: 2px solid #1e3e59;
+}
+.line2 {
+  border: 2px solid #1e3e59;
+}
+.line3 {
+  border: 2px solid #dfcca7;
+}
+.line4 {
+  border: 2px solid #1e3e59;
+}
+.endlinks li {
+  list-style: none;
+}
+.endlinks li a {
+  text-decoration: none;
+  color: #1e3e59;
+  font-size: 1.1rem;
+}
+
+.footerlinks li {
+  list-style: none;
+}
+.footerlinks li a {
+  text-decoration: none;
+  color: #1e3e59;
+}
+#projects a:hover {
+  text-decoration: none;
+  color: #e67b4b;
+}
+
+.contacts {
+  padding-left: 6rem;
+}
+.footertext {
+  padding-bottom: 1rem;
+  border-bottom: 0.2rem solid #1e3e59;
+  width: 7rem;
+}
+
+.link-left {
+  position: relative;
+}
+
+.link-left:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  bottom: -10px;
+  display: block;
+  background: #1e3e59;
+  width: 25%;
+  left: 0;
+}
+.link-center {
+  position: relative;
+}
+
+.link-center:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  bottom: -10px;
+  display: block;
+  background: #1e3e59;
+  width: 25%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.link-right {
+  position: relative;
+}
+
+.link-right:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  display: block;
+  bottom: -10px;
+  background: #1e3e59;
+  width: 25%;
+  left: auto;
+  right: 0;
+}
+.link2-center {
+  position: relative;
+}
+
+.link2-center:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  bottom: -10px;
+  display: block;
+  background: #1e3e59;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+/* about.css */
+.aboutsec {
+  background-color: wheat;
+  line-height: 1.7;
+  color: black;
+}
+.aboutsec p {
+  font-size: 1.1rem;
+}
+
+.aboutimg {
+  background-image: url("../about_mission_imgs/construction.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18rem;
+  line-height: 1.6;
+}
+.middleline {
+  border: 1.5px solid #1e3e59;
+  width: 15rem;
+}
+
+.bg-image {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../home_slider_imgs/slider4.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hilton-bg-image {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../home_slider_imgs/outerview_hilton.jpeg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h3 {
+  color: #dfcca7;
+  font-size: 2.4rem;
+}
+
+.plan {
+  background-color: #1e3e59;
+  color: white;
+}
+.planimg {
+  background-color: #f2e0bd;
+  padding: 2rem;
+}
+
+.blockimg {
+  background-color: #f2e0bd;
+  padding: 2rem;
+}
+.projplan {
+  background-color: #c5e5e0;
+}
+.features {
+  font-size: 0.8rem;
+}
+
+/* contact.css */
+
+.contactsec {
+  background-image: url("../contact_imgs/header-contact-us.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+  line-height: 1.6;
+}
+
+.contactext {
+  /* font-size: 4rem; */
+  color: #f2e0bd;
+  font-size: 2.4rem;
+}
+.infocont {
+  background-color: #1e3e59;
+  color: white;
+}
+.continfo {
+  background-color: #f2e0bd;
+  color: black;
+}
+.contimage {
+  height: 15rem;
+  width: 90%;
+  box-shadow: 23px 23px 43px -16px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1.5rem;
+}
+.contsec-b {
+  height: 10vh;
+  width: 100%;
+  background-color: #f2e0bd;
+}
+.under_const_dummy {
+  height: 50vh;
+  width: 100%;
+  background-color: #f2e0bd;
+}
+
+/*  greenalpha.css  */
+
+.under_const_img {
+  background-image: url("../underconstruction01.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+  line-height: 1.6;
+}
+#floorplans li a {
+  text-decoration: none;
+  color: white;
+}
+#floorplans li {
+  list-style: none;
+}
+
+#blocks li a {
+  text-decoration: none;
+  color: white;
+}
+#blocks li {
+  list-style: none;
+}
+
+.townshipsec {
+  background-color: #f2e0bd;
+}
+
+.specifications .fa-chevron-circle-down {
+  float: right;
+}
+.specifications .cardtext {
+  background-color: #1e3e59;
+}
+
+.card-body {
+  background-color: #f2e0bd;
+}
+
+/* galaxy.css */
+.galaxyimg .bg-image {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../completed_galaxy_mainimg/galaxy-2.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* bliss_in_the_woods.css */
+.blissimg .bg-image {
+  background-image: url("../bliss_in_the_woods_imgs/blissimg.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  line-height: 1.6;
+}
+.amenities {
+  padding-left: 3rem;
+}
+.indoorgames {
+  padding-left: 3rem;
+}
+.commonamenities {
+  padding-left: 3rem;
+}
+.location {
+  padding: 0rem 4rem;
+}
+/* MEDIA QURIES */
+@media only screen and (max-width: 600px) {
+  .subheader {
+    display: none;
+  }
+  #grid1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  #grid2 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .link-center,
+  .link-left,
+  .link-right {
+    position: relative;
+  }
+
+  .link-center:after,
+  .link-left::after,
+  .link-right::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    bottom: -10px;
+    display: block;
+    background: #1e3e59;
+    width: 25%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .aboutsec p {
+    font-size: 1rem;
+  }
+  .aboutsec h2 {
+    font-size: 1.5rem;
+  }
+  .aboutsec {
+    line-height: 1.6;
+  }
+  .endlinks .project2 {
+    padding-top: 1rem;
+  }
+  .help {
+    padding-bottom: 1rem;
+  }
+  .contactsec {
+    height: 10rem;
+    line-height: 1.6;
+  }
+  .contactsec h1 {
+    font-size: 1.2rem;
+  }
+  .contimage {
+    height: 12rem;
+    width: 90%;
+    box-shadow: 23px 23px 43px -16px rgba(0, 0, 0, 0.5);
+  }
+  .contactinfo h3 {
+    font-size: 1rem;
+  }
+  .under_const_img {
+    height: 10rem;
+  }
+  #bliss_headerimg {
+    height: 15rem;
+  }
+
+  .under_const_img h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .showcase h3 {
+    font-size: 1.3rem;
+  }
+  .showcase .bg-image {
+    height: 15rem;
+  }
+  .towntxt {
+    font-size: 1.2rem;
+  }
+  .townshipsec p {
+    padding: 0 0 0 1.3rem;
+  }
+  .townshipsec img {
+    width: 10rem;
+  }
+  .galaxyimg h3 {
+    font-size: 1.3rem;
+  }
+  .galaxyimg .bg-image {
+    height: 15rem;
+  }
+  .blissimg .bg-image {
+    height: 15rem;
+  }
+  .galaxylogosec .towntxt {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .siteinfo p {
+    font-size: 1rem;
+  }
+  .siteimgs h3 {
+    font-size: 1.4rem;
+  }
+  .club_bg img,
+  .projplan img,
+  .planimg img,
+  .blockimg img {
+    height: 200px;
+    width: auto;
+  }
+  .under_const_img {
+    height: 16rem;
+  }
+  .image2 {
+    height: 232px;
+    width: 90%;
+    border-radius: 7%;
+  }
+
+  .location {
+    padding: 0rem 0rem;
+  }
+  .line {
+    border: 0.1rem solid #1e3e59;
+    width: 5rem;
+  }
+  .line1 {
+    border: 1.6px solid #1e3e59;
+  }
+  .line2 {
+    border: 1.6px solid #1e3e59;
+  }
+  .line3 {
+    border: 1.6px solid #dfcca7;
+  }
+  .line4 {
+    border: 1.6px solid #1e3e59;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #section-b {
+    padding: 0 0.6rem;
+  }
+  .gridslide img {
+    height: 15rem;
+    width: 20rem;
+  }
+  .galaxylogosec img {
+    height: 8rem;
+    width: 12rem;
+  }
+  .mission h3 {
+    font-size: 1.2rem;
+  }
+  .missionbox box {
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 812px) and (min-width: 600px) {
+  .aboutsec p {
+    font-size: 0.9rem;
+  }
+  .aboutsec h2 {
+    font-size: 1.6rem;
+  }
+  .subheader {
+    display: none;
+  }
+  .link-center:after,
+  .link-left::after,
+  .link-right::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    bottom: -10px;
+    display: block;
+    background: #1e3e59;
+    width: 25%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .showcase h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* @media screen and (max-width: 362px) and (min-width: 279px){
+  .aboutsec p{
+    font-size: 0.9rem;
+  }
+  .aboutsec h2{
+    font-size: 1.4rem;
+  }
+  .contactinfo h3{
+    font-size: 0.8rem;
+  }
+
+}
+
+@media screen and (max-width: 280px) and (min-width: 200px){
+  .aboutsec p{
+    font-size: 0.8rem;
+  }
+  .aboutsec h2{
+    font-size: 1rem;
+  }
+  
+  .contactinfo h3{
+    font-size: 0.8rem;
+  }
+
+  
+}
+ */
